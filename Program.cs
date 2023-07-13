@@ -4,6 +4,7 @@
     {
         public static void Main(string[] args)
         {
+            Dog.Dogs();
             List<BookModel> books = new List<BookModel>();
             bool IsFinished = false;
             while (!IsFinished)
